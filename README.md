@@ -1,8 +1,21 @@
-# React + Vite
+# Sample Frontend of Full Stack Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains the frontend of a full stack application developed using React.js and Tailwind CSS. It interacts with the backend through HTTP requests using Axios. The backend is hosted in a separate repository.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Add employee details (first name, last name, email, position)
+- View all employee details in a tabular format
+- Notification system for success and error handling
+
+## Tech Stack
+
+- React.js
+- Tailwind CSS
+- Axios
+- React Router
+- React Toastify
+
+## Backend Repository
+
+The backend of this project is hosted in a separate repository. You can find it [here](https://github.com/awaze7/sample_backend_devops.git).
