@@ -4,7 +4,7 @@ import axios from 'axios';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const backendUrl = import.meta.env.VITE_BACKEND_URL;
+const backendUrl = process.env.BACKEND_URL;
 
 export default function ViewEmployeesPage() {
     const [data, setData] = useState([]);
